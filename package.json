@@ -1,0 +1,11 @@
+{
+  "name": "f1fantasy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}
