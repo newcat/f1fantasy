@@ -7,6 +7,8 @@ import Driver from "./Driver";
 import Team from "./Team";
 import { RequestInstance as req } from "./Request";
 import { IRoundResult } from "./ResultModels";
+import { ICombination } from "./Combination";
+import exportMarkdown from "./MarkdownExporter";
 
 const db = lowdb(new FileAsync("db.json"));
 const drivers = initialDrivers.map((d) => new Driver(d.name, d.num, d.budget, 0));
@@ -128,10 +130,65 @@ function calculateTeamStatistics() {
 
 function outputExpectedPoints() {
     teams.forEach((t) => {
-        console.log(`${t.name}: ${t.expectedPoints}`);
-        console.log(`\t${t.driver1.name}: ${t.driver1.expectedPoints}`);
-        console.log(`\t${t.driver2.name}: ${t.driver2.expectedPoints}`);
+        console.log(`${t.name}: ${t.expectedPoints.toFixed(2)}`);
+        console.log(`\t${t.driver1.name}: ${t.driver1.expectedPoints.toFixed(2)}`);
+        console.log(`\t${t.driver2.name}: ${t.driver2.expectedPoints.toFixed(2)}`);
     });
+}
+
+const combinations: ICombination[] = [];
+function calculateCombinations() {
+    for (const team of teams) {
+        const b0 = team.budget;
+        for (let d1 = 0; d1 < drivers.length - 4; d1++) {
+            const b1 = b0 + drivers[d1].budget;
+            for (let d2 = d1 + 1; d2 < drivers.length - 3; d2++) {
+                const b2 = b1 + drivers[d2].budget;
+                for (let d3 = d2 + 1; d3 < drivers.length - 2; d3++) {
+                    const b3 = b2 + drivers[d3].budget;
+                    for (let d4 = d3 + 1; d4 < drivers.length - 1; d4++) {
+                        const b4 = b3 + drivers[d4].budget;
+                        for (let d5 = d4 + 1; d5 < drivers.length; d5++) {
+                            const budget = b4 + drivers[d5].budget;
+                            if (budget > 100) { continue; }
+                            for (let turbo = 0; turbo < 5; turbo++) {
+                                let turboDriver: Driver;
+                                switch (turbo) {
+                                    case 0: turboDriver = drivers[d1]; break;
+                                    case 1: turboDriver = drivers[d2]; break;
+                                    case 2: turboDriver = drivers[d3]; break;
+                                    case 3: turboDriver = drivers[d4]; break;
+                                    case 4: turboDriver = drivers[d5]; break;
+                                    default: turboDriver = drivers[d1];
+                                }
+                                const ep = team.expectedPoints + drivers[d1].expectedPoints +
+                                    drivers[d2].expectedPoints + drivers[d3].expectedPoints +
+                                    drivers[d4].expectedPoints + drivers[d5].expectedPoints +
+                                    turboDriver.expectedPoints;
+                                const comb = { budget, expectedPoints: ep, team, turbo: turboDriver, d1: drivers[d1],
+                                                d2: drivers[d2], d3: drivers[d3], d4: drivers[d4], d5: drivers[d5] };
+                                combinations.push(comb);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+function outputCombination(c: ICombination) {
+
+    console.log("Expected Points: ", c.expectedPoints.toFixed(2));
+    console.log(`Team: ${c.team.name} (${c.team.expectedPoints.toFixed(2)})`);
+    console.log(`Driver 1: ${c.d1.name} (${c.d1.expectedPoints.toFixed(2)})`);
+    console.log(`Driver 2: ${c.d2.name} (${c.d2.expectedPoints.toFixed(2)})`);
+    console.log(`Driver 3: ${c.d3.name} (${c.d3.expectedPoints.toFixed(2)})`);
+    console.log(`Driver 4: ${c.d4.name} (${c.d4.expectedPoints.toFixed(2)})`);
+    console.log(`Driver 5: ${c.d5.name} (${c.d5.expectedPoints.toFixed(2)})`);
+    console.log(`Turbo Driver: ${c.turbo.name}`);
+    console.log(`TOTAL BUDGET USE: ${c.budget}`);
+
 }
 
 (async () => {
@@ -146,5 +203,21 @@ function outputExpectedPoints() {
     calculateTeamStatistics();
 
     outputExpectedPoints();
+
+    console.log("Calculating best combination");
+    calculateCombinations();
+    console.log(`Found ${combinations.length} valid combinations`);
+
+    const sortedCombs = combinations.sort((a, b) => a.expectedPoints - b.expectedPoints);
+    console.log("\n=== BEST COMBINATION ===");
+    outputCombination(sortedCombs[sortedCombs.length - 1]);
+
+    console.log("\n=== OTHER COMBINATIONS ===\n");
+    _.takeRight(sortedCombs, 10).slice(1).forEach((c) => {
+        outputCombination(c);
+        console.log("");
+    });
+
+    await exportMarkdown(rounds[rounds.length - 1], teams, sortedCombs);
 
 })();
