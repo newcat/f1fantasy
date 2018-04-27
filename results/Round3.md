@@ -36,8 +36,8 @@ Sahara Force India F1 Team | 4.67
 Haas F1 Team | 4.33
 Red Bull Toro Rosso Honda | 4.00
 ## Best Combination
-- Expected Points: **281.67**
-- Turbo Driver: **Sebastian Vettel**
+- Expected Points: **261.33**
+- Turbo Driver: **Nico Hülkenberg**
 - Budget: **94.8**
 
 []() | Driver / Team | Expected Points
@@ -50,8 +50,8 @@ Driver 4 | Nico Hülkenberg | 37.00
 Driver 5 | Fernando Alonso | 34.00
 
 ## Other Combinations
-- Expected Points: **281.33**
-- Turbo Driver: **Sebastian Vettel**
+- Expected Points: **261.00**
+- Turbo Driver: **Nico Hülkenberg**
 - Budget: **90.8**
 
 []() | Driver / Team | Expected Points
@@ -66,8 +66,8 @@ Driver 5 | Charles Leclerc | 13.67
 
 ---
 
-- Expected Points: **278.67**
-- Turbo Driver: **Sebastian Vettel**
+- Expected Points: **258.33**
+- Turbo Driver: **Nico Hülkenberg**
 - Budget: **94.3**
 
 []() | Driver / Team | Expected Points
@@ -82,72 +82,8 @@ Driver 5 | Stoffel Vandoorne | 11.00
 
 ---
 
-- Expected Points: **278.00**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **92**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | Scuderia Ferrari | 64.67
-Driver 1 | Sebastian Vettel | 57.33
-Driver 2 | Lance Stroll | 14.00
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Fernando Alonso | 34.00
-Driver 5 | Charles Leclerc | 13.67
-
-
----
-
-- Expected Points: **277.67**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **95.8**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | McLaren F1 Team | 30.00
-Driver 1 | Valtteri Bottas | 52.00
-Driver 2 | Sebastian Vettel | 57.33
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Carlos Sainz jr. | 10.00
-Driver 5 | Fernando Alonso | 34.00
-
-
----
-
-- Expected Points: **277.00**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **99.8**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | McLaren F1 Team | 30.00
-Driver 1 | Valtteri Bottas | 52.00
-Driver 2 | Sebastian Vettel | 57.33
-Driver 3 | Daniel Ricciardo | 29.67
-Driver 4 | Nico Hülkenberg | 37.00
-Driver 5 | Charles Leclerc | 13.67
-
-
----
-
-- Expected Points: **276.33**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **93.8**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | McLaren F1 Team | 30.00
-Driver 1 | Valtteri Bottas | 52.00
-Driver 2 | Sebastian Vettel | 57.33
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Kevin Magnussen | 8.67
-Driver 5 | Fernando Alonso | 34.00
-
-
----
-
-- Expected Points: **276.33**
-- Turbo Driver: **Valtteri Bottas**
+- Expected Points: **258.33**
+- Turbo Driver: **Fernando Alonso**
 - Budget: **94.8**
 
 []() | Driver / Team | Expected Points
@@ -162,8 +98,8 @@ Driver 5 | Fernando Alonso | 34.00
 
 ---
 
-- Expected Points: **276.00**
-- Turbo Driver: **Valtteri Bottas**
+- Expected Points: **258.00**
+- Turbo Driver: **Fernando Alonso**
 - Budget: **90.8**
 
 []() | Driver / Team | Expected Points
@@ -178,18 +114,82 @@ Driver 5 | Charles Leclerc | 13.67
 
 ---
 
-- Expected Points: **275.67**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **97.6**
+- Expected Points: **257.67**
+- Turbo Driver: **Nico Hülkenberg**
+- Budget: **92**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | Scuderia Ferrari | 64.67
+Driver 1 | Sebastian Vettel | 57.33
+Driver 2 | Lance Stroll | 14.00
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Fernando Alonso | 34.00
+Driver 5 | Charles Leclerc | 13.67
+
+
+---
+
+- Expected Points: **257.33**
+- Turbo Driver: **Nico Hülkenberg**
+- Budget: **95.8**
 
 []() | Driver / Team | Expected Points
 --- | --- | ---
 Team | McLaren F1 Team | 30.00
 Driver 1 | Valtteri Bottas | 52.00
 Driver 2 | Sebastian Vettel | 57.33
-Driver 3 | Esteban Ocon | 8.00
-Driver 4 | Nico Hülkenberg | 37.00
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Carlos Sainz jr. | 10.00
 Driver 5 | Fernando Alonso | 34.00
+
+
+---
+
+- Expected Points: **256.67**
+- Turbo Driver: **Nico Hülkenberg**
+- Budget: **99.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Daniel Ricciardo | 29.67
+Driver 4 | Nico Hülkenberg | 37.00
+Driver 5 | Charles Leclerc | 13.67
+
+
+---
+
+- Expected Points: **256.00**
+- Turbo Driver: **Nico Hülkenberg**
+- Budget: **93.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Kevin Magnussen | 8.67
+Driver 5 | Fernando Alonso | 34.00
+
+
+---
+
+- Expected Points: **255.33**
+- Turbo Driver: **Nico Hülkenberg**
+- Budget: **91.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Fernando Alonso | 34.00
+Driver 5 | Marcus Ericsson | 8.00
 
 
 ---

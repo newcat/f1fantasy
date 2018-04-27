@@ -161,6 +161,7 @@ function calculateCombinations() {
                                     case 4: turboDriver = drivers[d5]; break;
                                     default: turboDriver = drivers[d1];
                                 }
+                                if (turboDriver.budget > 19) { continue; }
                                 const ep = team.expectedPoints + drivers[d1].expectedPoints +
                                     drivers[d2].expectedPoints + drivers[d3].expectedPoints +
                                     drivers[d4].expectedPoints + drivers[d5].expectedPoints +
