@@ -22,10 +22,32 @@ function outputCombination(stream: fs.WriteStream, comb: ICombination) {
 
 }
 
-export default function exportMarkdown(
+function writeDriversFile(r: IRoundResult, d: Driver): Promise<void> {
+    return new Promise((res, rej) => {
+
+        const stream = fs.createWriteStream(path.resolve(__dirname, "../results", `Round${r.round}`, `Drv${d.num}.md`));
+        stream.once("open", (fd) => {
+            stream.write(`# ${d.name} - Round ${r.round} - ${r.name}\nProperty | Value\n--- | ---\n`);
+            _.forOwn(d.statistic, (v, k) => {
+                stream.write(`${k} | ${v}\n`);
+            });
+            stream.end(res);
+        });
+
+    });
+}
+
+export default async function exportMarkdown(
     round: IRoundResult, teams: Team[], drivers: Driver[], sortedCombs: ICombination[]): Promise<void> {
 
-    return new Promise((res, rej) => {
+    await new Promise((res, rej) => {
+        fs.mkdir(path.resolve(__dirname, "../results", `Round${round.round}`), (err) => {
+            if (err && err.code !== "EEXIST") { console.log("Error while creating stats dir: ", err); }
+            res();
+        });
+    });
+
+    await new Promise((res, rej) => {
 
         const stream = fs.createWriteStream(path.resolve(__dirname, "../results", `Round${round.round}.md`));
         stream.once("open", (fd) => {
@@ -34,7 +56,7 @@ export default function exportMarkdown(
 
             stream.write("## Expected Points - Drivers\nDriver | Expected Points\n--- | ---\n");
             drivers.sort((a, b) => b.expectedPoints - a.expectedPoints).forEach((d) => {
-                stream.write(`${d.name} | ${d.expectedPoints.toFixed(2)}\n`);
+                stream.write(`[${d.name}](./Round${round.round}/Drv${d.num}.md) | ${d.expectedPoints.toFixed(2)}\n`);
             });
 
             stream.write("## Expected Points - Teams\nTeam | Expected Points\n--- | ---\n");
@@ -56,5 +78,7 @@ export default function exportMarkdown(
         });
 
     });
+
+    await Promise.all(drivers.map((d) => writeDriversFile(round, d)));
 
 }

@@ -1,0 +1,19 @@
+# Sebastian Vettel - Round 3 - Chinese Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 1
+outqualifiesTeammatePerc | 0.6666666666666666
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 1
+medianRacePositionChange | 0
+finishesRaceAheadOfTeammatePerc | 0.6666666666666666
+finishesRaceTop10Perc | 1
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | true
+hasTeamRaceStreakChance | true

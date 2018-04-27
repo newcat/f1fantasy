@@ -1,0 +1,19 @@
+# Charles Leclerc - Round 3 - Chinese Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 19
+outqualifiesTeammatePerc | 0.3333333333333333
+reachesQ2Perc | 0
+reachesQ3Perc | 0
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 13
+medianRacePositionChange | 5
+finishesRaceAheadOfTeammatePerc | 0.3333333333333333
+finishesRaceTop10Perc | 0
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

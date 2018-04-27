@@ -1,0 +1,19 @@
+# Valtteri Bottas - Round 3 - Chinese Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 3
+outqualifiesTeammatePerc | 0.6666666666666666
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 2
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.6666666666666666
+finishesRaceTop10Perc | 1
+fastestLapPerc | 0.3333333333333333
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | true
+hasTeamRaceStreakChance | true

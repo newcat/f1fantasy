@@ -1,0 +1,19 @@
+# Kevin Magnussen - Round 3 - Chinese Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 7
+outqualifiesTeammatePerc | 0.6666666666666666
+reachesQ2Perc | 1
+reachesQ3Perc | 0.6666666666666666
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 10
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.6666666666666666
+finishesRaceTop10Perc | 0.6666666666666666
+fastestLapPerc | 0
+dnfChance | 0.3333333333333333
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | true

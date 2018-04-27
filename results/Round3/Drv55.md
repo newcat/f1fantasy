@@ -1,0 +1,19 @@
+# Carlos Sainz jr. - Round 3 - Chinese Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 9
+outqualifiesTeammatePerc | 0
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 10
+medianRacePositionChange | -1
+finishesRaceAheadOfTeammatePerc | 0
+finishesRaceTop10Perc | 0.6666666666666666
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

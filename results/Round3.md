@@ -2,26 +2,26 @@
 ## Expected Points - Drivers
 Driver | Expected Points
 --- | ---
-Sebastian Vettel | 57.33
-Valtteri Bottas | 52.00
-Lewis Hamilton | 42.67
-Nico Hülkenberg | 37.00
-Fernando Alonso | 34.00
-Daniel Ricciardo | 29.67
-Kimi Räikkönen | 27.33
-Lance Stroll | 14.00
-Charles Leclerc | 13.67
-Stoffel Vandoorne | 11.00
-Max Verstappen | 10.67
-Carlos Sainz jr. | 10.00
-Kevin Magnussen | 8.67
-Esteban Ocon | 8.00
-Marcus Ericsson | 8.00
-Pierre Gasly | 4.00
-Sergio Perez | 1.67
-Sergei Sirotkin | 0.00
-Brendon Hartley | -0.00
-Romain Grosjean | -9.33
+[Sebastian Vettel](./Round3/Drv5.md) | 57.33
+[Valtteri Bottas](./Round3/Drv77.md) | 52.00
+[Lewis Hamilton](./Round3/Drv44.md) | 42.67
+[Nico Hülkenberg](./Round3/Drv27.md) | 37.00
+[Fernando Alonso](./Round3/Drv14.md) | 34.00
+[Daniel Ricciardo](./Round3/Drv3.md) | 29.67
+[Kimi Räikkönen](./Round3/Drv7.md) | 27.33
+[Lance Stroll](./Round3/Drv18.md) | 14.00
+[Charles Leclerc](./Round3/Drv16.md) | 13.67
+[Stoffel Vandoorne](./Round3/Drv2.md) | 11.00
+[Max Verstappen](./Round3/Drv33.md) | 10.67
+[Carlos Sainz jr.](./Round3/Drv55.md) | 10.00
+[Kevin Magnussen](./Round3/Drv20.md) | 8.67
+[Esteban Ocon](./Round3/Drv31.md) | 8.00
+[Marcus Ericsson](./Round3/Drv9.md) | 8.00
+[Pierre Gasly](./Round3/Drv10.md) | 4.00
+[Sergio Perez](./Round3/Drv11.md) | 1.67
+[Sergei Sirotkin](./Round3/Drv35.md) | 0.00
+[Brendon Hartley](./Round3/Drv28.md) | -0.00
+[Romain Grosjean](./Round3/Drv8.md) | -9.33
 ## Expected Points - Teams
 Team | Expected Points
 --- | ---
