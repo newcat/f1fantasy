@@ -2,39 +2,39 @@
 ## Expected Points - Drivers
 Driver | Expected Points
 --- | ---
+Romain Grosjean | -9.33
+Brendon Hartley | -0.00
+Sergei Sirotkin | 0.00
+Sergio Perez | 1.67
+Pierre Gasly | 4.00
+Marcus Ericsson | 8.00
+Esteban Ocon | 8.00
+Kevin Magnussen | 8.67
+Carlos Sainz jr. | 10.00
+Max Verstappen | 10.67
+Stoffel Vandoorne | 11.00
+Charles Leclerc | 13.67
+Lance Stroll | 14.00
+Kimi Räikkönen | 27.33
+Daniel Ricciardo | 29.67
+Fernando Alonso | 34.00
+Nico Hülkenberg | 37.00
 Lewis Hamilton | 42.67
 Valtteri Bottas | 52.00
 Sebastian Vettel | 57.33
-Kimi Räikkönen | 29.33
-Daniel Ricciardo | 29.67
-Max Verstappen | 14.67
-Sergio Perez | 5.67
-Esteban Ocon | 8.00
-Lance Stroll | 14.00
-Sergei Sirotkin | 0.00
-Nico Hülkenberg | 37.00
-Carlos Sainz jr. | 12.00
-Brendon Hartley | 5.00
-Pierre Gasly | 4.00
-Romain Grosjean | 0.67
-Kevin Magnussen | 8.67
-Fernando Alonso | 34.00
-Stoffel Vandoorne | 11.00
-Marcus Ericsson | 8.00
-Charles Leclerc | 13.67
 ## Expected Points - Teams
 Team | Expected Points
 --- | ---
-Mercedes AMG Petronas Motorsport | 58.00
-Scuderia Ferrari | 66.67
-Aston Martin Red Bull Racing | 41.00
-Sahara Force India F1 Team | 8.67
+Red Bull Toro Rosso Honda | 4.00
+Haas F1 Team | 4.33
+Sahara Force India F1 Team | 4.67
 Williams Martini Racing | 14.00
-Renault Sport F1 Team | 24.00
-Red Bull Toro Rosso Honda | 9.00
-Haas F1 Team | 14.33
-McLaren F1 Team | 30.00
 Alfa Romeo Sauber F1 Team | 21.67
+Renault Sport F1 Team | 22.00
+McLaren F1 Team | 30.00
+Aston Martin Red Bull Racing | 37.00
+Mercedes AMG Petronas Motorsport | 58.00
+Scuderia Ferrari | 64.67
 ## Best Combination
 - Expected Points: **281.67**
 - Turbo Driver: **Sebastian Vettel**
@@ -66,38 +66,6 @@ Driver 5 | Charles Leclerc | 13.67
 
 ---
 
-- Expected Points: **280.00**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **92**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | Scuderia Ferrari | 66.67
-Driver 1 | Sebastian Vettel | 57.33
-Driver 2 | Lance Stroll | 14.00
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Fernando Alonso | 34.00
-Driver 5 | Charles Leclerc | 13.67
-
-
----
-
-- Expected Points: **279.67**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **95.8**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | McLaren F1 Team | 30.00
-Driver 1 | Valtteri Bottas | 52.00
-Driver 2 | Sebastian Vettel | 57.33
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Carlos Sainz jr. | 12.00
-Driver 5 | Fernando Alonso | 34.00
-
-
----
-
 - Expected Points: **278.67**
 - Turbo Driver: **Sebastian Vettel**
 - Budget: **94.3**
@@ -114,66 +82,34 @@ Driver 5 | Stoffel Vandoorne | 11.00
 
 ---
 
-- Expected Points: **278.33**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **97**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | Scuderia Ferrari | 66.67
-Driver 1 | Sebastian Vettel | 57.33
-Driver 2 | Lance Stroll | 14.00
-Driver 3 | Nico Hülkenberg | 37.00
-Driver 4 | Carlos Sainz jr. | 12.00
-Driver 5 | Fernando Alonso | 34.00
-
-
----
-
 - Expected Points: **278.00**
 - Turbo Driver: **Sebastian Vettel**
-- Budget: **93**
+- Budget: **92**
 
 []() | Driver / Team | Expected Points
 --- | --- | ---
-Team | Scuderia Ferrari | 66.67
-Driver 1 | Sebastian Vettel | 57.33
-Driver 2 | Nico Hülkenberg | 37.00
-Driver 3 | Carlos Sainz jr. | 12.00
-Driver 4 | Fernando Alonso | 34.00
-Driver 5 | Charles Leclerc | 13.67
-
-
----
-
-- Expected Points: **277.33**
-- Turbo Driver: **Sebastian Vettel**
-- Budget: **95.5**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | Scuderia Ferrari | 66.67
+Team | Scuderia Ferrari | 64.67
 Driver 1 | Sebastian Vettel | 57.33
 Driver 2 | Lance Stroll | 14.00
 Driver 3 | Nico Hülkenberg | 37.00
 Driver 4 | Fernando Alonso | 34.00
-Driver 5 | Stoffel Vandoorne | 11.00
+Driver 5 | Charles Leclerc | 13.67
 
 
 ---
 
-- Expected Points: **277.00**
+- Expected Points: **277.67**
 - Turbo Driver: **Sebastian Vettel**
-- Budget: **91.5**
+- Budget: **95.8**
 
 []() | Driver / Team | Expected Points
 --- | --- | ---
-Team | Scuderia Ferrari | 66.67
-Driver 1 | Sebastian Vettel | 57.33
-Driver 2 | Nico Hülkenberg | 37.00
-Driver 3 | Fernando Alonso | 34.00
-Driver 4 | Stoffel Vandoorne | 11.00
-Driver 5 | Charles Leclerc | 13.67
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Carlos Sainz jr. | 10.00
+Driver 5 | Fernando Alonso | 34.00
 
 
 ---
@@ -190,6 +126,70 @@ Driver 2 | Sebastian Vettel | 57.33
 Driver 3 | Daniel Ricciardo | 29.67
 Driver 4 | Nico Hülkenberg | 37.00
 Driver 5 | Charles Leclerc | 13.67
+
+
+---
+
+- Expected Points: **276.33**
+- Turbo Driver: **Sebastian Vettel**
+- Budget: **93.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Kevin Magnussen | 8.67
+Driver 5 | Fernando Alonso | 34.00
+
+
+---
+
+- Expected Points: **276.33**
+- Turbo Driver: **Valtteri Bottas**
+- Budget: **94.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Lance Stroll | 14.00
+Driver 4 | Nico Hülkenberg | 37.00
+Driver 5 | Fernando Alonso | 34.00
+
+
+---
+
+- Expected Points: **276.00**
+- Turbo Driver: **Valtteri Bottas**
+- Budget: **90.8**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Nico Hülkenberg | 37.00
+Driver 4 | Fernando Alonso | 34.00
+Driver 5 | Charles Leclerc | 13.67
+
+
+---
+
+- Expected Points: **275.67**
+- Turbo Driver: **Sebastian Vettel**
+- Budget: **97.6**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | McLaren F1 Team | 30.00
+Driver 1 | Valtteri Bottas | 52.00
+Driver 2 | Sebastian Vettel | 57.33
+Driver 3 | Esteban Ocon | 8.00
+Driver 4 | Nico Hülkenberg | 37.00
+Driver 5 | Fernando Alonso | 34.00
 
 
 ---

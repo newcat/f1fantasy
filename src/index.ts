@@ -218,6 +218,6 @@ function outputCombination(c: ICombination) {
         console.log("");
     });
 
-    await exportMarkdown(rounds[rounds.length - 1], teams, sortedCombs);
+    await exportMarkdown(rounds[rounds.length - 1], teams, drivers, sortedCombs);
 
 })();

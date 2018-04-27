@@ -5,6 +5,7 @@ import { IRoundResult } from "./ResultModels";
 import * as fs from "fs";
 import * as path from "path";
 import * as _ from "lodash";
+import Driver from "./Driver";
 
 function outputCombination(stream: fs.WriteStream, comb: ICombination) {
 
@@ -21,7 +22,8 @@ function outputCombination(stream: fs.WriteStream, comb: ICombination) {
 
 }
 
-export default function exportMarkdown(round: IRoundResult, teams: Team[], sortedCombs: ICombination[]): Promise<void> {
+export default function exportMarkdown(
+    round: IRoundResult, teams: Team[], drivers: Driver[], sortedCombs: ICombination[]): Promise<void> {
 
     return new Promise((res, rej) => {
 
@@ -31,13 +33,12 @@ export default function exportMarkdown(round: IRoundResult, teams: Team[], sorte
             stream.write(`# Round ${round.round} - ${round.name}\n`);
 
             stream.write("## Expected Points - Drivers\nDriver | Expected Points\n--- | ---\n");
-            teams.forEach((t) => {
-                stream.write(`${t.driver1.name} | ${t.driver1.expectedPoints.toFixed(2)}\n`);
-                stream.write(`${t.driver2.name} | ${t.driver2.expectedPoints.toFixed(2)}\n`);
+            drivers.sort((a, b) => a.expectedPoints - b.expectedPoints).forEach((d) => {
+                stream.write(`${d.name} | ${d.expectedPoints.toFixed(2)}\n`);
             });
 
             stream.write("## Expected Points - Teams\nTeam | Expected Points\n--- | ---\n");
-            teams.forEach((t) => {
+            teams.sort((a, b) => a.expectedPoints - b.expectedPoints).forEach((t) => {
                 stream.write(`${t.name} | ${t.expectedPoints.toFixed(2)}\n`);
             });
 

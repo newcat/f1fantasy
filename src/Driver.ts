@@ -87,9 +87,15 @@ export default class Driver {
         // Fastest lap: 5 pts (driver only)
         dp += s.fastestLapPerc * 5;
         // Started race within Top 10, finished race but lost position: -2 pts per place lost (max -10 pts)
-        // TODO
+        if (s.medianQualifyingResult <= 10 && s.medianRacePositionChange < 0) {
+            const pts = s.medianRacePositionChange * 2;
+            p += pts < -10 ? -10 : pts;
+        }
         // Started race outside Top 10, finished race but lost position: -1 pt per place lost (max -5 pts)
-        // TODO
+        if (s.medianQualifyingResult > 10 && s.medianRacePositionChange < 0) {
+            const pts = s.medianRacePositionChange * 1;
+            p += pts < -5 ? -5 : pts;
+        }
         // Did not finish race: -15 pts (driver only)
         dp += s.dnfChance * -15;
         // Disqualification from race: -20 pts (driver only)
