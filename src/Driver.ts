@@ -1,4 +1,4 @@
-import IResult from "./Result";
+import { IQualifyingResult, IRaceResult } from "./ResultModels";
 
 export interface IDriverStatistic {
     // Qualifying
@@ -33,7 +33,8 @@ export default class Driver {
     public budget: number;
     public dominanceFactor: number;
 
-    public results?: IResult[];
+    public qualifyingResults: IQualifyingResult[] = [];
+    public raceResults: IRaceResult[] = [];
     public statistic?: IDriverStatistic;
     public expectedPoints: number = 0;
     public expectedDriverOnlyPoints: number = 0;
@@ -95,22 +96,20 @@ export default class Driver {
         dp += s.dsqChance * -20;
         // Finishing Position Bonuses
         if (s.medianRaceResult <= 10) {
-            p += racePointsLookupTable[s.medianRaceResult];
+            p += racePointsLookupTable[s.medianRaceResult - 1];
         }
 
         // Streaks
-        // TODO: Check if driver streak points are driver only
 
         // Driver Qualifying - driver qualifies in Top 10 for 5 races in a row: +5 pts
-        if (s.hasDriverQualifyingStreakChance) { p += s.reachesQ3Perc * 5; }
+        if (s.hasDriverQualifyingStreakChance) { dp += s.reachesQ3Perc * 5; }
         // Driver Race - driver finishes race in Top 10 for 5 races in a row: +10 pts
-        if (s.hasDriverRaceStreakChance) { p += s.finishesRaceTop10Perc * 10; }
+        if (s.hasDriverRaceStreakChance) { dp += s.finishesRaceTop10Perc * 10; }
 
         // TODO: Dominance Factor
 
         this.expectedPoints = p + dp;
         this.expectedDriverOnlyPoints = dp;
-        console.log(`EP ${this.name}: ${p + dp} (DP: ${dp})`);
 
     }
 

@@ -2,10 +2,15 @@ import Driver from "./Driver";
 
 export default class Team {
 
-    private name: string;
-    private budget: number;
-    private driver1: Driver;
-    private driver2: Driver;
+    public name: string;
+    public budget: number;
+    public driver1: Driver;
+    public driver2: Driver;
+
+    public get expectedPoints(): number {
+        return this.driver1.expectedPoints - this.driver1.expectedDriverOnlyPoints +
+            this.driver2.expectedPoints - this.driver2.expectedDriverOnlyPoints;
+    }
 
     constructor(name: string, budget: number, driver1: Driver, driver2: Driver) {
         this.name = name;
