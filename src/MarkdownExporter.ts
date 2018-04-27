@@ -33,12 +33,12 @@ export default function exportMarkdown(
             stream.write(`# Round ${round.round} - ${round.name}\n`);
 
             stream.write("## Expected Points - Drivers\nDriver | Expected Points\n--- | ---\n");
-            drivers.sort((a, b) => a.expectedPoints - b.expectedPoints).forEach((d) => {
+            drivers.sort((a, b) => b.expectedPoints - a.expectedPoints).forEach((d) => {
                 stream.write(`${d.name} | ${d.expectedPoints.toFixed(2)}\n`);
             });
 
             stream.write("## Expected Points - Teams\nTeam | Expected Points\n--- | ---\n");
-            teams.sort((a, b) => a.expectedPoints - b.expectedPoints).forEach((t) => {
+            teams.sort((a, b) => b.expectedPoints - a.expectedPoints).forEach((t) => {
                 stream.write(`${t.name} | ${t.expectedPoints.toFixed(2)}\n`);
             });
 

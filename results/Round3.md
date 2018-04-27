@@ -2,39 +2,39 @@
 ## Expected Points - Drivers
 Driver | Expected Points
 --- | ---
-Romain Grosjean | -9.33
-Brendon Hartley | -0.00
-Sergei Sirotkin | 0.00
-Sergio Perez | 1.67
-Pierre Gasly | 4.00
-Marcus Ericsson | 8.00
-Esteban Ocon | 8.00
-Kevin Magnussen | 8.67
-Carlos Sainz jr. | 10.00
-Max Verstappen | 10.67
-Stoffel Vandoorne | 11.00
-Charles Leclerc | 13.67
-Lance Stroll | 14.00
-Kimi Räikkönen | 27.33
-Daniel Ricciardo | 29.67
-Fernando Alonso | 34.00
-Nico Hülkenberg | 37.00
-Lewis Hamilton | 42.67
-Valtteri Bottas | 52.00
 Sebastian Vettel | 57.33
+Valtteri Bottas | 52.00
+Lewis Hamilton | 42.67
+Nico Hülkenberg | 37.00
+Fernando Alonso | 34.00
+Daniel Ricciardo | 29.67
+Kimi Räikkönen | 27.33
+Lance Stroll | 14.00
+Charles Leclerc | 13.67
+Stoffel Vandoorne | 11.00
+Max Verstappen | 10.67
+Carlos Sainz jr. | 10.00
+Kevin Magnussen | 8.67
+Esteban Ocon | 8.00
+Marcus Ericsson | 8.00
+Pierre Gasly | 4.00
+Sergio Perez | 1.67
+Sergei Sirotkin | 0.00
+Brendon Hartley | -0.00
+Romain Grosjean | -9.33
 ## Expected Points - Teams
 Team | Expected Points
 --- | ---
-Red Bull Toro Rosso Honda | 4.00
-Haas F1 Team | 4.33
-Sahara Force India F1 Team | 4.67
-Williams Martini Racing | 14.00
-Alfa Romeo Sauber F1 Team | 21.67
-Renault Sport F1 Team | 22.00
-McLaren F1 Team | 30.00
-Aston Martin Red Bull Racing | 37.00
-Mercedes AMG Petronas Motorsport | 58.00
 Scuderia Ferrari | 64.67
+Mercedes AMG Petronas Motorsport | 58.00
+Aston Martin Red Bull Racing | 37.00
+McLaren F1 Team | 30.00
+Renault Sport F1 Team | 22.00
+Alfa Romeo Sauber F1 Team | 21.67
+Williams Martini Racing | 14.00
+Sahara Force India F1 Team | 4.67
+Haas F1 Team | 4.33
+Red Bull Toro Rosso Honda | 4.00
 ## Best Combination
 - Expected Points: **281.67**
 - Turbo Driver: **Sebastian Vettel**
