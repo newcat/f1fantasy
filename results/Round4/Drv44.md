@@ -1,0 +1,19 @@
+# Lewis Hamilton - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 3
+outqualifiesTeammatePerc | 0.5
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 3
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.5
+finishesRaceTop10Perc | 1
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | true
+hasTeamRaceStreakChance | true

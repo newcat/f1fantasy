@@ -1,0 +1,19 @@
+# Valtteri Bottas - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 3
+outqualifiesTeammatePerc | 0.5
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 5
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.5
+finishesRaceTop10Perc | 0.75
+fastestLapPerc | 0.25
+dnfChance | 0.25
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

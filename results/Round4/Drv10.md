@@ -1,0 +1,19 @@
+# Pierre Gasly - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 17
+outqualifiesTeammatePerc | 0.5
+reachesQ2Perc | 0.25
+reachesQ3Perc | 0.25
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 15
+medianRacePositionChange | 2
+finishesRaceAheadOfTeammatePerc | 0.5
+finishesRaceTop10Perc | 0.25
+fastestLapPerc | 0
+dnfChance | 0.25
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

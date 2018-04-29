@@ -1,0 +1,19 @@
+# Nico Hülkenberg - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 8
+outqualifiesTeammatePerc | 1
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 7
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.75
+finishesRaceTop10Perc | 0.75
+fastestLapPerc | 0
+dnfChance | 0.25
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

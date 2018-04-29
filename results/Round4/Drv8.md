@@ -1,0 +1,19 @@
+# Romain Grosjean - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 13
+outqualifiesTeammatePerc | 0.25
+reachesQ2Perc | 0.5
+reachesQ3Perc | 0.5
+doesNotQualifyPerc | 0.25
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 16
+medianRacePositionChange | -2
+finishesRaceAheadOfTeammatePerc | 0.25
+finishesRaceTop10Perc | 0
+fastestLapPerc | 0
+dnfChance | 0.5
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

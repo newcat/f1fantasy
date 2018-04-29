@@ -1,0 +1,19 @@
+# Daniel Ricciardo - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 5
+outqualifiesTeammatePerc | 0.5
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 11
+medianRacePositionChange | -6
+finishesRaceAheadOfTeammatePerc | 0.5
+finishesRaceTop10Perc | 0.5
+fastestLapPerc | 0.5
+dnfChance | 0.5
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

@@ -1,0 +1,19 @@
+# Marcus Ericsson - Round 4 - Azerbaijan Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 18
+outqualifiesTeammatePerc | 0.5
+reachesQ2Perc | 0
+reachesQ3Perc | 0
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 14
+medianRacePositionChange | 6
+finishesRaceAheadOfTeammatePerc | 0.5
+finishesRaceTop10Perc | 0.25
+fastestLapPerc | 0
+dnfChance | 0.25
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false
