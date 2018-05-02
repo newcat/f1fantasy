@@ -106,11 +106,12 @@ export default class Driver {
         }
 
         // Streaks
+        // TODO: Enable streaks when they are implemented in F1 Fantasy
 
         // Driver Qualifying - driver qualifies in Top 10 for 5 races in a row: +5 pts
-        if (s.hasDriverQualifyingStreakChance) { dp += s.reachesQ3Perc * 5; }
+        // if (s.hasDriverQualifyingStreakChance) { dp += s.reachesQ3Perc * 5; }
         // Driver Race - driver finishes race in Top 10 for 5 races in a row: +10 pts
-        if (s.hasDriverRaceStreakChance) { dp += s.finishesRaceTop10Perc * 10; }
+        // if (s.hasDriverRaceStreakChance) { dp += s.finishesRaceTop10Perc * 10; }
 
         // TODO: Dominance Factor
 
