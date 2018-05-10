@@ -84,22 +84,6 @@ Driver 5 | Charles Leclerc | 14.75
 
 - Expected Points: **177.00**
 - Turbo Driver: **Fernando Alonso**
-- Budget: **96.89999999999999**
-
-[]() | Driver / Team | Expected Points
---- | --- | ---
-Team | Mercedes AMG Petronas Motorsport | 52.75
-Driver 1 | Lewis Hamilton | 31.50
-Driver 2 | Nico Hülkenberg | 15.25
-Driver 3 | Fernando Alonso | 24.00
-Driver 4 | Stoffel Vandoorne | 14.75
-Driver 5 | Charles Leclerc | 14.75
-
-
----
-
-- Expected Points: **177.00**
-- Turbo Driver: **Fernando Alonso**
 - Budget: **94.89999999999999**
 
 []() | Driver / Team | Expected Points
@@ -114,18 +98,18 @@ Driver 5 | Charles Leclerc | 14.75
 
 ---
 
-- Expected Points: **176.75**
+- Expected Points: **177.00**
 - Turbo Driver: **Fernando Alonso**
-- Budget: **98.1**
+- Budget: **96.89999999999999**
 
 []() | Driver / Team | Expected Points
 --- | --- | ---
-Team | Scuderia Ferrari | 52.75
+Team | Mercedes AMG Petronas Motorsport | 52.75
 Driver 1 | Lewis Hamilton | 31.50
-Driver 2 | Lance Stroll | 14.50
-Driver 3 | Nico Hülkenberg | 15.25
-Driver 4 | Fernando Alonso | 24.00
-Driver 5 | Stoffel Vandoorne | 14.75
+Driver 2 | Nico Hülkenberg | 15.25
+Driver 3 | Fernando Alonso | 24.00
+Driver 4 | Stoffel Vandoorne | 14.75
+Driver 5 | Charles Leclerc | 14.75
 
 
 ---
@@ -162,18 +146,18 @@ Driver 5 | Charles Leclerc | 14.75
 
 ---
 
-- Expected Points: **176.25**
+- Expected Points: **176.75**
 - Turbo Driver: **Fernando Alonso**
-- Budget: **92.1**
+- Budget: **98.1**
 
 []() | Driver / Team | Expected Points
 --- | --- | ---
 Team | Scuderia Ferrari | 52.75
 Driver 1 | Lewis Hamilton | 31.50
 Driver 2 | Lance Stroll | 14.50
-Driver 3 | Fernando Alonso | 24.00
-Driver 4 | Stoffel Vandoorne | 14.75
-Driver 5 | Charles Leclerc | 14.75
+Driver 3 | Nico Hülkenberg | 15.25
+Driver 4 | Fernando Alonso | 24.00
+Driver 5 | Stoffel Vandoorne | 14.75
 
 
 ---
@@ -185,6 +169,22 @@ Driver 5 | Charles Leclerc | 14.75
 []() | Driver / Team | Expected Points
 --- | --- | ---
 Team | Mercedes AMG Petronas Motorsport | 52.75
+Driver 1 | Lewis Hamilton | 31.50
+Driver 2 | Lance Stroll | 14.50
+Driver 3 | Fernando Alonso | 24.00
+Driver 4 | Stoffel Vandoorne | 14.75
+Driver 5 | Charles Leclerc | 14.75
+
+
+---
+
+- Expected Points: **176.25**
+- Turbo Driver: **Fernando Alonso**
+- Budget: **92.1**
+
+[]() | Driver / Team | Expected Points
+--- | --- | ---
+Team | Scuderia Ferrari | 52.75
 Driver 1 | Lewis Hamilton | 31.50
 Driver 2 | Lance Stroll | 14.50
 Driver 3 | Fernando Alonso | 24.00

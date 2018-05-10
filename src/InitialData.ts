@@ -12,6 +12,8 @@ export interface IInitialTeam {
     budget: number;
 }
 
+export const budgetAvailable = 99.1;
+
 export const drivers: IInitialDriver[] = [
     {
         name: "Lewis Hamilton",

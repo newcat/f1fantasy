@@ -2,7 +2,7 @@ import * as _ from "lodash";
 import * as lowdb from "lowdb";
 import * as FileAsync from "lowdb/adapters/FileSync";
 
-import { drivers as initialDrivers, teams as initialTeams } from "./InitialData";
+import { drivers as initialDrivers, teams as initialTeams, budgetAvailable } from "./InitialData";
 import Driver from "./Driver";
 import Team from "./Team";
 import { RequestInstance as req } from "./Request";
@@ -136,7 +136,21 @@ function outputExpectedPoints() {
     });
 }
 
+function isCompatibleWithCurrentTeam(c: ICombination): boolean {
+    const currentDrivers = [ 77, 5, 18, 27, 14 ];
+    const currentTeam = "McLaren F1 Team";
+    let changesNeeded = 0;
+    if (currentDrivers.indexOf(c.d1.num) < 0) { changesNeeded++; }
+    if (currentDrivers.indexOf(c.d2.num) < 0) { changesNeeded++; }
+    if (currentDrivers.indexOf(c.d3.num) < 0) { changesNeeded++; }
+    if (currentDrivers.indexOf(c.d4.num) < 0) { changesNeeded++; }
+    if (currentDrivers.indexOf(c.d5.num) < 0) { changesNeeded++; }
+    if (c.team.name !== currentTeam) { changesNeeded++; }
+    return changesNeeded <= 1;
+}
+
 const combinations: ICombination[] = [];
+let bestCompatibleComb: ICombination | undefined;
 function calculateCombinations() {
     for (const team of teams) {
         const b0 = team.budget;
@@ -150,7 +164,7 @@ function calculateCombinations() {
                         const b4 = b3 + drivers[d4].budget;
                         for (let d5 = d4 + 1; d5 < drivers.length; d5++) {
                             const budget = b4 + drivers[d5].budget;
-                            if (budget > 100) { continue; }
+                            if (budget > budgetAvailable) { continue; }
                             for (let turbo = 0; turbo < 5; turbo++) {
                                 let turboDriver: Driver;
                                 switch (turbo) {
@@ -169,6 +183,10 @@ function calculateCombinations() {
                                 const comb = { budget, expectedPoints: ep, team, turbo: turboDriver, d1: drivers[d1],
                                                 d2: drivers[d2], d3: drivers[d3], d4: drivers[d4], d5: drivers[d5] };
                                 combinations.push(comb);
+                                if (isCompatibleWithCurrentTeam(comb) &&
+                                    (!bestCompatibleComb || bestCompatibleComb.expectedPoints < comb.expectedPoints)) {
+                                        bestCompatibleComb = comb;
+                                }
                             }
                         }
                     }
@@ -218,6 +236,13 @@ function outputCombination(c: ICombination) {
         outputCombination(c);
         console.log("");
     });
+
+    console.log("\n=== BEST COMBINATION WITH CURRENT TEAM ===\n");
+    if (bestCompatibleComb) {
+        outputCombination(bestCompatibleComb);
+    } else {
+        console.log("Could not find compatible combination.");
+    }
 
     await exportMarkdown(rounds[rounds.length - 1], teams, drivers, sortedCombs);
 
