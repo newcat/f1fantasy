@@ -1,0 +1,19 @@
+# Romain Grosjean - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 10
+outqualifiesTeammatePerc | 0.2
+reachesQ2Perc | 0.6
+reachesQ3Perc | 0.6
+doesNotQualifyPerc | 0.2
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 16
+medianRacePositionChange | -7
+finishesRaceAheadOfTeammatePerc | 0.2
+finishesRaceTop10Perc | 0
+fastestLapPerc | 0
+dnfChance | 0.6
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

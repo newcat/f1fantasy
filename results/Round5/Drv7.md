@@ -1,0 +1,19 @@
+# Kimi Räikkönen - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 2
+outqualifiesTeammatePerc | 0.2
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 3
+medianRacePositionChange | -1
+finishesRaceAheadOfTeammatePerc | 0.4
+finishesRaceTop10Perc | 0.6
+fastestLapPerc | 0
+dnfChance | 0.4
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

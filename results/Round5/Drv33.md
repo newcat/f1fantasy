@@ -1,0 +1,19 @@
+# Max Verstappen - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 5
+outqualifiesTeammatePerc | 0.6
+reachesQ2Perc | 1
+reachesQ3Perc | 0.8
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 6
+medianRacePositionChange | -2
+finishesRaceAheadOfTeammatePerc | 0.6
+finishesRaceTop10Perc | 0.6
+fastestLapPerc | 0
+dnfChance | 0.4
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

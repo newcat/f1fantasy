@@ -1,0 +1,19 @@
+# Esteban Ocon - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 12
+outqualifiesTeammatePerc | 0.6
+reachesQ2Perc | 1
+reachesQ3Perc | 0.4
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 12
+medianRacePositionChange | -1
+finishesRaceAheadOfTeammatePerc | 0.4
+finishesRaceTop10Perc | 0.2
+fastestLapPerc | 0
+dnfChance | 0.4
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

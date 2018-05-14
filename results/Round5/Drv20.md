@@ -1,0 +1,19 @@
+# Kevin Magnussen - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 7
+outqualifiesTeammatePerc | 0.8
+reachesQ2Perc | 1
+reachesQ3Perc | 0.6
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 10
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.8
+finishesRaceTop10Perc | 0.6
+fastestLapPerc | 0
+dnfChance | 0.2
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

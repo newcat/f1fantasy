@@ -1,0 +1,19 @@
+# Brendon Hartley - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 16
+outqualifiesTeammatePerc | 0.4
+reachesQ2Perc | 0.4
+reachesQ3Perc | 0
+doesNotQualifyPerc | 0.2
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 15
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.6
+finishesRaceTop10Perc | 0.2
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false

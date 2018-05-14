@@ -1,0 +1,19 @@
+# Fernando Alonso - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 13
+outqualifiesTeammatePerc | 1
+reachesQ2Perc | 1
+reachesQ3Perc | 0.2
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | false
+hasTeamQualifyingStreakChance | false
+medianRaceResult | 7
+medianRacePositionChange | 6
+finishesRaceAheadOfTeammatePerc | 1
+finishesRaceTop10Perc | 1
+fastestLapPerc | 0
+dnfChance | 0
+dsqChance | 0
+hasDriverRaceStreakChance | true
+hasTeamRaceStreakChance | true

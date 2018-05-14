@@ -137,7 +137,7 @@ function outputExpectedPoints() {
 }
 
 function isCompatibleWithCurrentTeam(c: ICombination): boolean {
-    const currentDrivers = [ 77, 5, 18, 27, 14 ];
+    const currentDrivers = [ 77, 5, 20, 27, 14 ];
     const currentTeam = "McLaren F1 Team";
     let changesNeeded = 0;
     if (currentDrivers.indexOf(c.d1.num) < 0) { changesNeeded++; }

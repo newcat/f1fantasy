@@ -1,0 +1,19 @@
+# Valtteri Bottas - Round 5 - Spanish Grand Prix
+Property | Value
+--- | ---
+medianQualifyingResult | 3
+outqualifiesTeammatePerc | 0.4
+reachesQ2Perc | 1
+reachesQ3Perc | 1
+doesNotQualifyPerc | 0
+hasDriverQualifyingStreakChance | true
+hasTeamQualifyingStreakChance | true
+medianRaceResult | 2
+medianRacePositionChange | 1
+finishesRaceAheadOfTeammatePerc | 0.4
+finishesRaceTop10Perc | 0.8
+fastestLapPerc | 0.2
+dnfChance | 0.2
+dsqChance | 0
+hasDriverRaceStreakChance | false
+hasTeamRaceStreakChance | false
